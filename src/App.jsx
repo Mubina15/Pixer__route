@@ -20,6 +20,7 @@ function App() {
           <Route path='/jamoa' element={<Section_3 />} />
           <Route path='/blog' element={<Section_3 />} />
           <Route path='/kontakt' element={<Footer />} />
+          <Route path='*' element={<h1>Error</h1>} />
       </Routes>
     </div>
 
