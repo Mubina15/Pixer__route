@@ -14,10 +14,10 @@ function App() {
       <Header />
 
       <Routes>
-          <Route path='/' element={<h1>Home Page</h1>} />
-          <Route path='/Xizmatlar' element={<Intro />} />
-          <Route path='/portfolio' element={<Section_1 />} />
-          <Route path='/jamoa' element={<Section_2 />} />
+          <Route path='/' element={<Intro />} />
+          <Route path='/Xizmatlar' element={<Section_1 />} />
+          <Route path='/portfolio' element={<Section_2 />} />
+          <Route path='/jamoa' element={<Section_3 />} />
           <Route path='/blog' element={<Section_3 />} />
           <Route path='/kontakt' element={<Footer />} />
       </Routes>
